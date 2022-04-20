@@ -1,0 +1,62 @@
+<!-- <p>login works!</p> -->
+
+
+<div class="container">
+    <div class = "row">
+        <div class="col-md-6">
+            <div class = "card">
+                <div class="text-center">
+                    <h1>Login</h1>
+                    <h2>Please enter email & password!!</h2>
+                </div>
+                 
+                    <form [formGroup]="loginForm">
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label><br>
+                          <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1"  placeholder= "Enter email address"  aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div><br>
+                          <span class="text-danger" *ngIf="loginForm.controls['email'].dirty && loginForm.hasError('required','email')">*Email Id is required</span>
+                        </div>
+
+                    
+
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label><br>
+                          <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1" placeholder= "Enter password">
+                          <span class="text-danger" *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required','password')">*Password is required</span>
+                        </div>
+
+                       
+                                                
+                        <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid"  (click)="login()">login</button>
+                        <!-- <a routerlink="/dashboard" > </a> -->
+                      </form>
+                      
+
+
+                      <!-- <form [formGroup]="loginForm">
+                        <fieldset disabled>
+                          <legend>Login Details</legend>
+                          <div class="mb-3">
+                            <label for="disabledTextInput" class="form-label">Email Address</label>
+                            <input  formControlName="email"   type="text" id="disabledTextInput" class="form-control" placeholder="Enter email address">
+                          </div>
+                          <div class="mb-3">
+                            <label for="disabledSelect" class="form-label">Password</label>
+                            <select id="disabledSelect" class="form-select">
+                              <option>enter password</option>
+                            </select>
+                          </div>
+                         
+                          <button type="submit" class="btn btn-primary mb-2">Login</button>
+                        </fieldset>
+                      </form> -->
+
+              
+              <a style="color:rgb(238, 108, 22); margin:10px;" routerLink="/signup">New User? Click to SignUp</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>

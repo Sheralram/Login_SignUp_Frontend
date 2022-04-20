@@ -1,0 +1,119 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 1
+    },
+    {
+      "fullname": "Ramkrishna Sheral",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 2
+    },
+    {
+      "fullname": "Ramkrishna Sheral",
+      "email": "ramkrishna.sheral@gmail.com",
+      "password": "123456",
+      "mobile": 8180088568,
+      "id": 3
+    },
+    {
+      "fullname": "123",
+      "email": "3333333",
+      "password": "dwdw",
+      "mobile": 2222223,
+      "id": 5
+    },
+    {
+      "fullname": "Kiran ",
+      "email": "Abc@gmail.com",
+      "password": "0000000",
+      "mobile": 9087651232,
+      "id": 6
+    },
+    {
+      "fullname": "Ramkrishna Sheral",
+      "email": "ramkrishna.sheral@gmail.com",
+      "password": "123456",
+      "mobile": 1234567,
+      "id": 8
+    },
+    {
+      "fullname": "kami bhai",
+      "email": "abcD@gmail.com",
+      "password": "123456",
+      "mobile": 1234567,
+      "id": 9
+    },
+    {
+      "fullname": "123",
+      "email": "ramkrishna@gmail.com",
+      "password": "Ram",
+      "mobile": 67890,
+      "id": 10
+    },
+    {
+      "fullname": "Ramkrishna Sheral",
+      "email": "ramkrishna@gmail.com",
+      "password": "123456",
+      "mobile": 123456,
+      "id": 11
+    },
+    {
+      "fullname": "kiran Lasure",
+      "email": "kiran@abc.com",
+      "password": "123456",
+      "mobile": 123455,
+      "id": 12
+    },
+    {
+      "fullname": "kamil sir",
+      "email": "kamil@test.com",
+      "password": "123456",
+      "mobile": 1234567,
+      "id": 13
+    },
+    {
+      "fullname": "Ramkrishna Sheral",
+      "email": "hhh",
+      "password": "77777",
+      "mobile": 1234567890,
+      "id": 14
+    },
+    {
+      "fullname": "Prashant Bhimrathi",
+      "email": "prashant@test.com",
+      "password": "098765",
+      "mobile": 1234567890,
+      "id": 15
+    },
+    {
+      "fullname": "aea2234354",
+      "email": "hkhku",
+      "password": "hbhbjhb,k",
+      "mobile": 46657678,
+      "id": 16
+    },
+    {
+      "fullname": "Krishna Sheral",
+      "email": "krishna@test.com",
+      "password": "123456789",
+      "mobile": 8180088568,
+      "id": 17
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

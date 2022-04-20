@@ -1,0 +1,40 @@
+.card{
+    margin-top: 10px !important;
+    border: none !important;
+    width: 500px !important;
+    padding: 40px !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    background: rgb(54, 134, 190) !important;
+    background: linear-gradient(90deg, rgb(96, 168, 219) 0%, rgb(47, 125, 182)100%) !important;
+}
+/* 
+form .form-control{
+    padding: 40px;
+} */
+.card h4{
+    color: #fff;
+}
+ label {
+    color: #fff;
+ }
+ .card h2{
+     text-align: center;
+    color: rgba(213, 235, 15, 0.959);
+}
+ label {
+    color: #fff;
+ }
+
+ .card h1{
+    text-align: center;
+    color: #fff;
+}
+ label {
+    color: #fff;
+ }
+ .text-danger{
+    color:red
+}
